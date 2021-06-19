@@ -28,7 +28,7 @@ export default function Portfolio() {
   },
 
   {
-    id:"javascript",
+    id:"javaScript",
     title: "Front-end & API",
   },
 
@@ -41,23 +41,23 @@ export default function Portfolio() {
   useEffect(()=>{
 
      switch(selected){
-       case "Featured":
+       case "featured":
          setData(featuredPortfolio)
          break;
 
-       case "React App":
+       case "react":
          setData(reactPortfolio)
          break;
 
-       case "Full Stack App":
+       case "full-stack":
          setData(fullStackPortfolio)
          break;
 
-       case "Front-End & API":
+       case "javaScript":
          setData(frontEndAPIPortfolio)
          break;
 
-       case "Responsive Design":
+       case "responsive":
           setData(responsivePortfolio)
           break;
 
@@ -69,9 +69,8 @@ export default function Portfolio() {
 
 
   },[selected])
-
+  console.log(selected)
   console.log(data)
-
 
   return (
     <div className="portfolio" id="portfolio">
@@ -86,20 +85,11 @@ export default function Portfolio() {
       </ul>
       <div className="container">
 
-              
-          {/* <div className="item">
-            <img src="../assets/demo 2.gif" alt="" />
-          
-            <a href="https://evening-castle-79713.herokuapp.com/" target="_blank"
-         rel="noreferrer" className="sites">Eat Da Burger</a>
-    
-          </div> */}
-     
-        
         {data.map((d) =>
-        (<div className="item">
+          (<div className="item">
             <img src={d.img} alt={d.title} />
-            <h3 className="sites">{d.title}</h3>
+            <a href={d.viewSite} target="_blank"
+              rel="noreferrer" className="sites" >{d.title}</a>
           </div>)
         
         )}

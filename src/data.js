@@ -27,7 +27,9 @@ export const featuredPortfolio =[
     {
         id:1,
         title: "Mornig Cup of JavaScript",
-        img:project3_demo
+        img:project3_demo,
+        viewSite: "https://secure-wave-92624.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/morning_cup_of_javascript"
 
     },
 
@@ -35,6 +37,8 @@ export const featuredPortfolio =[
         id:2,
         title: "Google Book Search",
         img:booksearch_demo,
+        viewSite: "https://polar-lowlands-42713.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/google_books_search_21",
 
     },
 
@@ -42,6 +46,8 @@ export const featuredPortfolio =[
         id:3,
         title: "Dailey Doodles",
         img:doodle_demo,
+        viewSite: "https://desolate-harbor-56312.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/my_daily_doodle_starter",
 
     },
 
@@ -49,6 +55,8 @@ export const featuredPortfolio =[
         id:4,
         title: "React Synthpad",
         img:synthpad_demo,
+        viewSite: "https://oliviapark113.github.io/react_synthPad_2021/",
+        viewCode: "https://github.com/Oliviapark113/react_synthPad_2021",
 
     },
 
@@ -56,6 +64,8 @@ export const featuredPortfolio =[
         id:5,
         title: "Code Closet",
         img:demofullview ,
+        viewSite: "https://stormy-stream-41757.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/CodeCloset-P2",
 
     },
 
@@ -63,6 +73,8 @@ export const featuredPortfolio =[
         id:6,
         title: "Eat Da Burger",
         img:eatda_burger_demo ,
+        viewSite: "https://evening-castle-79713.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/burgerapp_13",
 
     },
 
@@ -70,6 +82,8 @@ export const featuredPortfolio =[
         id:7,
         title: "Note Taker",
         img:note_taker_demo ,
+        viewSite: "https://sheltered-falls-35987.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/note_taker_11",
 
     },
 
@@ -77,6 +91,8 @@ export const featuredPortfolio =[
         id:8,
         title: "Weather Dash Board",
         img:weather_dashboard_fullscreen_img,
+        viewSite: "https://oliviapark113.github.io/weather_dashboard_06/",
+        viewCode: "https://github.com/Oliviapark113/weather_dashboard_06",
 
     },
 
@@ -84,6 +100,8 @@ export const featuredPortfolio =[
         id:9,
         title: "Real Time Day Planner",
         img:realtime_dayPlanner_fullscreen_img,
+        viewSite: "https://oliviapark113.github.io/realtime_dayPlanner_5/",
+        viewCode: "https://github.com/Oliviapark113/realtime_dayPlanner_5",
 
     },
 
@@ -91,6 +109,8 @@ export const featuredPortfolio =[
         id:10,
         title: "Timed Quiz",
         img:timed_quiz_demo,
+        viewSite: "https://oliviapark113.github.io/timed_quiz_box_4/",
+        viewCode: "https://github.com/Oliviapark113/timed_quiz_box_4",
 
     },
 
@@ -102,7 +122,9 @@ export const reactPortfolio = [
     {
         id:1,
         title: "Mornig Cup of JavaScript",
-        img:project3_demo
+        img:project3_demo,
+        viewSite: "https://secure-wave-92624.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/morning_cup_of_javascript",
 
     },
 
@@ -110,6 +132,8 @@ export const reactPortfolio = [
         id:2,
         title: "Google Book Search",
         img:booksearch_demo,
+        viewSite: "https://polar-lowlands-42713.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/google_books_search_21",
 
     },
 
@@ -117,6 +141,8 @@ export const reactPortfolio = [
         id:3,
         title: "Dailey Doodles",
         img:doodle_demo,
+        viewSite: "https://desolate-harbor-56312.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/my_daily_doodle_starter",
 
     },
 
@@ -124,6 +150,8 @@ export const reactPortfolio = [
         id:4,
         title: "React Synthpad",
         img:synthpad_demo,
+        viewSite: "https://oliviapark113.github.io/react_synthPad_2021/",
+        viewCode: "https://github.com/Oliviapark113/react_synthPad_2021",
 
     },
 
@@ -136,20 +164,26 @@ export const fullStackPortfolio =[
         id:1,
         title: "Code Closet",
         img:demofullview ,
+        viewSite: "https://stormy-stream-41757.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/CodeCloset-P2",
 
     },
 
     {
         id:2,
         title: "Eat Da Burger",
-        img:eatda_burger_demo ,
+        img:eatda_burger_demo,
+        viewSite: "https://evening-castle-79713.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/burgerapp_13",
 
     },
 
     {
         id:3,
         title: "Note Taker",
-        img:note_taker_demo ,
+        img:note_taker_demo,
+        viewSite: "https://sheltered-falls-35987.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/note_taker_11",
 
     },
 
@@ -161,6 +195,8 @@ export const frontEndAPIPortfolio = [
         id:1,
         title: "Weather Dash Board",
         img:weather_dashboard_fullscreen_img,
+        viewSite: "https://oliviapark113.github.io/weather_dashboard_06/",
+        viewCode: "https://github.com/Oliviapark113/weather_dashboard_06"
 
     },
 
@@ -168,6 +204,8 @@ export const frontEndAPIPortfolio = [
         id:2,
         title: "Real Time Day Planner",
         img:realtime_dayPlanner_fullscreen_img,
+        viewSite: "https://oliviapark113.github.io/realtime_dayPlanner_5/",
+        viewCode: "https://github.com/Oliviapark113/realtime_dayPlanner_5"
 
     },
 
@@ -175,6 +213,8 @@ export const frontEndAPIPortfolio = [
         id:3,
         title: "Timed Quiz",
         img:timed_quiz_demo,
+        viewSite: "https://oliviapark113.github.io/timed_quiz_box_4/",
+        viewCode: "https://github.com/Oliviapark113/timed_quiz_box_4",
 
     },
 
