@@ -7,12 +7,21 @@
     align-items: center;
     h1{
         font-size: 50px;
+        @include mobile {
+            font-size: 20px;
+        }
     }
     ul{
         margin: 10px;
         padding:0;
         list-style: none;
         display: flex;
+        @include mobile {
+            margin: 10px 0;
+           flex-wrap: wrap;
+           justify-content: center;
+           
+        }
 
         li{
             font-size: 14px;
@@ -36,6 +45,11 @@
         justify-self: center;
         flex-wrap: wrap;
 
+        @include mobile {
+            width: 100%;
+            
+         }
+
         .item {
             width: 380px;
             height:220px;
@@ -49,6 +63,13 @@
             position: relative;
             transition: all .5s ease;
             cursor: pointer;
+
+            @include mobile {
+                width: 130px;
+                height: 100px;
+               
+                
+             }
             
     
 
