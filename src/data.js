@@ -1,25 +1,22 @@
-import project3_demo from "./demo/project3_demo.gif"
+import morning_cup_of_javascript from "./Portfolio_photos/Morning_Cup_Of_JavaScript.png"
 import project3_responsive_img from "./Portfolio_photos/project3_responsive_img.jpg"
-import booksearch_demo from "./demo/booksearch_demo.gif"
+import google_book_search from "./Portfolio_photos/Google_Book_Search.png"
 import booksearch_responsive_img from "./Portfolio_photos/booksearch_responsive_img.jpg"
-import doodle_demo from "./demo/doodlestarter.gif"
+import daily_doodle from "./Portfolio_photos/Daily_Doodles.png"
 import doodle_responsive_img from "./Portfolio_photos/doodle_responsive_img.jpg"
 import synthpad_demo from "./demo/synthPad_demo.gif"
 import synthpad_responsive_img from "./Portfolio_photos/synthpad_responsive_img.jpg"
-import demofullview from "./demo/fullview.gif"
-import closet_responsive_img from "./Portfolio_photos/closet_responsive_img.jpg"
-import eatda_burger_demo from "./demo/demo 2.gif"
-// import eatda_burger_responsive_img from "../Portfolio_photos/eatdaburger_responsive_img.jpg"
-import note_taker_demo from "./demo/demo3.gif"
-// import note_taker_responsive_img from "../Portfolio_photos/notetaker_responsive_img.jpg"
-// import project7_fullscreen_demo from "../demo/project7_demo.gif"
-// import project7_responsive_img from "../Portfolio_photos/responsive_full_original.jpg"
-import weather_dashboard_fullscreen_img from "./Portfolio_photos/wdfull_view.jpg"
+import code_closet from "./Portfolio_photos/Code_Closet.png"
+import eatda_burger from "./Portfolio_photos/EatdaBuger.png"
+import note_taker from "./Portfolio_photos/Note_Taker.png"
+import pwa_budget_trackers from "./Portfolio_photos/PWA_Budget_Tracker.png"
+import workout_tracker from "./Portfolio_photos/Workout_Tracker.png"
+import weather_dashboard from "./Portfolio_photos/Weather_Dash_Board.png"
 import weather_dashboard_responsive_img from "./Portfolio_photos/wdresponsive_full_original.jpg"
-import realtime_dayPlanner_fullscreen_img from "./Portfolio_photos/scfull_view.jpg"
-// import realtime_dayPlanner_responsive_img from "../Portfolio_photos/scresponsive_full_original.jpg"
+import realtime_dayPlanner from "./Portfolio_photos/Day_Scheduler.png"
 import timed_quiz_demo from "./demo/timed_quiz_demo.gif"
-// import timed_quiz_responsive_img from "../Portfolio_photos/quizresponsive_full_original.jpg"
+
+
 
 
 export const featuredPortfolio =[
@@ -27,7 +24,7 @@ export const featuredPortfolio =[
     {
         id:1,
         title: "Mornig Cup of JavaScript",
-        img:project3_demo,
+        img:morning_cup_of_javascript,
         viewSite: "https://secure-wave-92624.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/morning_cup_of_javascript"
 
@@ -36,7 +33,7 @@ export const featuredPortfolio =[
     {
         id:2,
         title: "Google Book Search",
-        img:booksearch_demo,
+        img:google_book_search,
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/google_books_search_21",
 
@@ -45,7 +42,7 @@ export const featuredPortfolio =[
     {
         id:3,
         title: "Dailey Doodles",
-        img:doodle_demo,
+        img:daily_doodle,
         viewSite: "https://desolate-harbor-56312.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/my_daily_doodle_starter",
 
@@ -63,7 +60,7 @@ export const featuredPortfolio =[
     {
         id:5,
         title: "Code Closet",
-        img:demofullview ,
+        img:code_closet,
         viewSite: "https://stormy-stream-41757.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/CodeCloset-P2",
 
@@ -72,7 +69,7 @@ export const featuredPortfolio =[
     {
         id:6,
         title: "Eat Da Burger",
-        img:eatda_burger_demo ,
+        img:eatda_burger,
         viewSite: "https://evening-castle-79713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/burgerapp_13",
 
@@ -81,7 +78,7 @@ export const featuredPortfolio =[
     {
         id:7,
         title: "Note Taker",
-        img:note_taker_demo ,
+        img:note_taker ,
         viewSite: "https://sheltered-falls-35987.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/note_taker_11",
 
@@ -89,24 +86,42 @@ export const featuredPortfolio =[
 
     {
         id:8,
+        title: "PWA Budge Tracker",
+        img:pwa_budget_trackers,
+        viewSite: " https://whispering-plateau-19333.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/pwa_budgeTrackers_18",
+
+    },
+
+    {
+        id:9,
+        title: "Workout Tracker",
+        img:workout_tracker,
+        viewSite: "https://fierce-badlands-46569.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/workout_tracker_17",
+
+    },
+
+    {
+        id:10,
         title: "Weather Dash Board",
-        img:weather_dashboard_fullscreen_img,
+        img:weather_dashboard,
         viewSite: "https://oliviapark113.github.io/weather_dashboard_06/",
         viewCode: "https://github.com/Oliviapark113/weather_dashboard_06",
 
     },
 
     {
-        id:9,
+        id:11,
         title: "Real Time Day Planner",
-        img:realtime_dayPlanner_fullscreen_img,
+        img:realtime_dayPlanner,
         viewSite: "https://oliviapark113.github.io/realtime_dayPlanner_5/",
         viewCode: "https://github.com/Oliviapark113/realtime_dayPlanner_5",
 
     },
 
     {
-        id:10,
+        id:12,
         title: "Timed Quiz",
         img:timed_quiz_demo,
         viewSite: "https://oliviapark113.github.io/timed_quiz_box_4/",
@@ -122,7 +137,7 @@ export const reactPortfolio = [
     {
         id:1,
         title: "Mornig Cup of JavaScript",
-        img:project3_demo,
+        img:morning_cup_of_javascript,
         viewSite: "https://secure-wave-92624.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/morning_cup_of_javascript",
 
@@ -131,7 +146,7 @@ export const reactPortfolio = [
     {
         id:2,
         title: "Google Book Search",
-        img:booksearch_demo,
+        img:google_book_search,
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/google_books_search_21",
 
@@ -140,7 +155,7 @@ export const reactPortfolio = [
     {
         id:3,
         title: "Dailey Doodles",
-        img:doodle_demo,
+        img:daily_doodle,
         viewSite: "https://desolate-harbor-56312.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/my_daily_doodle_starter",
 
@@ -163,7 +178,7 @@ export const fullStackPortfolio =[
     {
         id:1,
         title: "Code Closet",
-        img:demofullview ,
+        img:code_closet,
         viewSite: "https://stormy-stream-41757.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/CodeCloset-P2",
 
@@ -172,7 +187,7 @@ export const fullStackPortfolio =[
     {
         id:2,
         title: "Eat Da Burger",
-        img:eatda_burger_demo,
+        img:eatda_burger,
         viewSite: "https://evening-castle-79713.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/burgerapp_13",
 
@@ -181,7 +196,7 @@ export const fullStackPortfolio =[
     {
         id:3,
         title: "Note Taker",
-        img:note_taker_demo,
+        img:note_taker,
         viewSite: "https://sheltered-falls-35987.herokuapp.com/",
         viewCode: "https://github.com/Oliviapark113/note_taker_11",
 
@@ -194,7 +209,7 @@ export const frontEndAPIPortfolio = [
     {
         id:1,
         title: "Weather Dash Board",
-        img:weather_dashboard_fullscreen_img,
+        img:weather_dashboard,
         viewSite: "https://oliviapark113.github.io/weather_dashboard_06/",
         viewCode: "https://github.com/Oliviapark113/weather_dashboard_06"
 
@@ -203,7 +218,7 @@ export const frontEndAPIPortfolio = [
     {
         id:2,
         title: "Real Time Day Planner",
-        img:realtime_dayPlanner_fullscreen_img,
+        img:realtime_dayPlanner,
         viewSite: "https://oliviapark113.github.io/realtime_dayPlanner_5/",
         viewCode: "https://github.com/Oliviapark113/realtime_dayPlanner_5"
 

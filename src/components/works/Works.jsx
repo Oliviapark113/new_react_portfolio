@@ -61,7 +61,7 @@ export default function Works(){
                 </div> */}
                 <h2>{d.title}</h2>
                 <p>{d.description}</p>
-                <span>Projects</span>
+                <a href={d.viewSite} target="_blank"rel="noreferrer" className="project">Project</a>
               </div>
             </div>
             <div className="right">
