@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/new_react_portfolio/static/css/main.227b54d6.chunk.css",
+    "main.js": "/new_react_portfolio/static/js/main.2855eecf.chunk.js",
+    "main.js.map": "/new_react_portfolio/static/js/main.2855eecf.chunk.js.map",
+    "runtime-main.js": "/new_react_portfolio/static/js/runtime-main.d75da455.js",
+    "runtime-main.js.map": "/new_react_portfolio/static/js/runtime-main.d75da455.js.map",
+    "static/js/2.d6ac3fc4.chunk.js": "/new_react_portfolio/static/js/2.d6ac3fc4.chunk.js",
+    "static/js/2.d6ac3fc4.chunk.js.map": "/new_react_portfolio/static/js/2.d6ac3fc4.chunk.js.map",
+    "index.html": "/new_react_portfolio/index.html",
+    "static/css/main.227b54d6.chunk.css.map": "/new_react_portfolio/static/css/main.227b54d6.chunk.css.map",
+    "static/js/2.d6ac3fc4.chunk.js.LICENSE.txt": "/new_react_portfolio/static/js/2.d6ac3fc4.chunk.js.LICENSE.txt",
+    "static/media/Code_Closet.f32e8f10.png": "/new_react_portfolio/static/media/Code_Closet.f32e8f10.png",
+    "static/media/Daily_Doodles.c0a9eac1.png": "/new_react_portfolio/static/media/Daily_Doodles.c0a9eac1.png",
+    "static/media/Day_Scheduler.e4d5d495.png": "/new_react_portfolio/static/media/Day_Scheduler.e4d5d495.png",
+    "static/media/EatdaBuger.891b7335.png": "/new_react_portfolio/static/media/EatdaBuger.891b7335.png",
+    "static/media/Google_Book_Search.841a7184.png": "/new_react_portfolio/static/media/Google_Book_Search.841a7184.png",
+    "static/media/Morning_Cup_Of_JavaScript.468c732c.png": "/new_react_portfolio/static/media/Morning_Cup_Of_JavaScript.468c732c.png",
+    "static/media/Note_Taker.63490ddb.png": "/new_react_portfolio/static/media/Note_Taker.63490ddb.png",
+    "static/media/PWA_Budget_Tracker.29f6c9f3.png": "/new_react_portfolio/static/media/PWA_Budget_Tracker.29f6c9f3.png",
+    "static/media/Weather_Dash_Board.08320870.png": "/new_react_portfolio/static/media/Weather_Dash_Board.08320870.png",
+    "static/media/Workout_Tracker.537ee2ee.png": "/new_react_portfolio/static/media/Workout_Tracker.537ee2ee.png",
+    "static/media/booksearch_demo.8051b381.gif": "/new_react_portfolio/static/media/booksearch_demo.8051b381.gif",
+    "static/media/doodlestarter.65abbb07.gif": "/new_react_portfolio/static/media/doodlestarter.65abbb07.gif",
+    "static/media/project3_demo.49894009.gif": "/new_react_portfolio/static/media/project3_demo.49894009.gif",
+    "static/media/project3_responsive_img.bcb01f87.jpg": "/new_react_portfolio/static/media/project3_responsive_img.bcb01f87.jpg",
+    "static/media/responsive.9fad4e87.jpg": "/new_react_portfolio/static/media/responsive.9fad4e87.jpg",
+    "static/media/synthPad_demo.fab40541.gif": "/new_react_portfolio/static/media/synthPad_demo.fab40541.gif",
+    "static/media/timed_quiz_demo.6169b86d.gif": "/new_react_portfolio/static/media/timed_quiz_demo.6169b86d.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d75da455.js",
+    "static/js/2.d6ac3fc4.chunk.js",
+    "static/css/main.227b54d6.chunk.css",
+    "static/js/main.2855eecf.chunk.js"
+  ]
+}
