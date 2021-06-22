@@ -64,9 +64,9 @@ export default function Contact() {
 
         <h1>Stay Connected !</h1>
         
-        <a href="https://www.linkedin.com/in/olivia-youngmee-park-74858651/" className="linedIn" target="_blank"rel="noreferrer" >Linked In <LinkedIn className="icon"/></a>
+        <a href="https://www.linkedin.com/in/olivia-park-74858651/" className="linedIn" target="_blank"rel="noreferrer" >Linked In <LinkedIn className="icon"/></a>
 
-        <a href="https://github.com/Oliviapark113" target="_blank"rel="noreferrer" className="github">GitHub <GitHub className="icon"/></a>
+        <a href="https://github.com/Oliviapark113/" target="_blank"rel="noreferrer" className="github">GitHub <GitHub className="icon"/></a>
       
         </div>
       </div>

@@ -32,8 +32,7 @@ export default function Testimonials() {
       name: "Marty Judge",
       title: "CEO of Judge Outdoor",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      // icon: "assets/linkedin.png",
+        "assets/marty_j.png",
       linkedIn:"https://www.linkedin.com/in/martyjudge22/",
       desc:
         "I have known Olivia for almost 5 years. I followed her progress through coding boot camp. We were very excited to have her work with our marketing team to create to help us to create a new brand and image for our online presence.",
