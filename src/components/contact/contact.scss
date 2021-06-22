@@ -6,6 +6,13 @@
     display: flex;
     flex-direction: row;
 
+    @include mobile{
+
+        display: flex;
+        flex-direction: column;
+     
+       }
+
     .left{
         flex: 0.5;
         overflow: hidden;
@@ -13,7 +20,8 @@
         align-items: center;
         justify-content: center;
         background-color:white;
-        margin: 30px;
+        margin: 50px;
+        padding: 20px;
         border-radius:20px;
         box-shadow: 10px 10px 25px -8px black;
 
@@ -28,12 +36,24 @@
             justify-content: center;
             float: left;
             margin: 30px;
+
+            @include mobile{
+
+                width: 300px;
+                height: 500px;
+             
+               }
         
 
             img{
                 height: 100%;
                 width: 100%;
-               
+                @include mobile{
+
+                    height: 90%;
+                     width: 100%;
+                 
+                   }
             }
         }
 
@@ -43,6 +63,13 @@
             flex-direction: column;
             align-items: flex-start;
             justify-content: space-between;
+               
+            // @include mobile{
+
+            //  padding: 10px;
+             
+            //    }
+    
 
             p{
                 color: $mainColor;
@@ -50,6 +77,16 @@
                 font-size: 20px;
                 margin-top: 20px;
                 margin-bottom: 50px;
+
+                @include mobile{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    margin: 7px;
+                    font-size: 14px;
+                    line-height: 1.4;
+                 
+                   }
             }
 
             .technicalSkills{
@@ -60,9 +97,32 @@
                 line-height: 1.8;
                 text-align: center;
 
-                .skill-header{
-                    font-size: 22px;
+                @include mobile{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                     
+                    font-size: 16px;
+                    line-height: 1.4;
+                 
+                   }
 
+                .skill-header{
+                    font-size: 24px;
+
+                    @include mobile{
+             
+                        font-size: 16px;
+                       }
+
+                }
+
+                li{
+                    font-weight: 400;
+                    @include mobile{
+             
+                        font-size: 14px;
+                       }
                 }
                 
             }
@@ -87,15 +147,15 @@
 
             width: 100%;
             height: 100%;
-            padding-left:50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            line-height: 1.8;
 
             h1{
                 color: white;
                 text-align: center;
-                font-size: 54px;
+                font-size: 50px;
             }
              
 
@@ -109,6 +169,11 @@
                 align-items: center;
                 justify-content: center;
 
+                @include mobile{
+             
+                    font-size: 22px;
+                   }
+
             }
             
             .icon{
@@ -119,6 +184,11 @@
                 flex-direction: row;
                 justify-content: center;
                 cursor: pointer;
+
+                @include mobile{
+             
+                    font-size: 20px;
+                   }
             }
 
         }
@@ -126,14 +196,6 @@
         
 
     }
-
-
-
-
-
-
-
-
 
 
 
