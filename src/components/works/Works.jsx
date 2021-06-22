@@ -3,6 +3,7 @@ import './works.scss'
 import project3_demo from "../../demo/project3_demo.gif"
 import booksearch_demo from "../../demo/booksearch_demo.gif"
 import doodle_demo from "../../demo/doodlestarter.gif"
+import arrow from "../../Portfolio_photos/arrow.png"
 
 export default function Works(){
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -74,8 +75,8 @@ export default function Works(){
           )
       }
       </div>
-      <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")} />
-      <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")} />
+      <img src={arrow} className="arrow left" alt="" onClick={()=>handleClick("left")} />
+      <img src={arrow} className="arrow right" alt="" onClick={()=>handleClick("right")} />
     </div>
   )
 }
