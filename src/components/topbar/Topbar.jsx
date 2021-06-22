@@ -15,11 +15,11 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           <a href="#intro" className="logo">Olivia.</a>
            <div className="itemContainer">
              <PhoneInTalk className="icon" />
-             <span>+01 347 852 1517</span>
+             <span>347 852 1517</span>
            </div>
            <div className="itemContainer">
              <Mail className="icon"/>
-             <span>oliviaypark113@gmail.com</span>
+             <a href="mailto:oliviaypark113@gmail.com" title="oliviaypark113@gmail.com" className="email">oliviaypark113@gmail.com</a>
            </div>
         </div>
 

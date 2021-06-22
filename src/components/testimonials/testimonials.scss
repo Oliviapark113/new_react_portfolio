@@ -2,7 +2,7 @@
 
 
 .testimonials{
-    background-color: white;
+    background-color: #44447c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,8 @@
 
     h1{
         font-size: 50px;
-
+        color: white;
+        margin-top: 20px;
         @include mobile{
             font-size: 20px;
         }
@@ -38,12 +39,13 @@
             width: 250px;
             height: 70%;
             border-radius:10px;
-            box-shadow: 0px 0px 15px -8px black;
+            box-shadow: 10px 10px 25px -8px black;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             padding: 20px;
             transition: all 1s ease;
+            background-color: white;
 
             @include mobile{
                 height: 180px;
@@ -72,9 +74,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                .right{
+                    font-size: 30px;
+                    color: black;
+                }
 
                 img{
-                    &.left,&.right{
+                    &.left{
                         height: 25px;
                   }
                   &.user{

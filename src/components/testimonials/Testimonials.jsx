@@ -1,39 +1,42 @@
 import React from 'react'
 import './testimonials.scss'
+import {LinkedIn} from '@material-ui/icons';
 
 export default function Testimonials() {
 
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "David Tolliver",
+      title: "Executive Managing Director, Castlewood Advisors",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/twitter.png",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "assets/david_t.png",
+        linkedIn:"https://www.linkedin.com/in/david-tolliver-9a0a0821/",
+     
+      // icon: "assets/twitter.png",
+      desc: "I run a boutique mergers & acquisitions advisory firm in New York.  I recently retained Olivia’s services to clean up our firm’s website and to create website for me personally. I could not have been happier with her speed, creativity and subject matter expertise.  We will use her again for other project work."
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Josh Naylor",
+      title: "Lead Instructor of Northwestern Univerity Boot Camp",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
+        "assets/josh_n.png",
+      linkedIn:"https://www.linkedin.com/in/zylocodes/",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Marty Judge",
+      title: "CEO of Judge Outdoor",
       img:
         "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
+      // icon: "assets/linkedin.png",
+      linkedIn:"https://www.linkedin.com/in/martyjudge22/",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "I have known Olivia for almost 5 years. I followed her progress through coding boot camp. We were very excited to have her work with our marketing team to create to help us to create a new brand and image for our online presence.",
     },
      
 
@@ -49,7 +52,7 @@ export default function Testimonials() {
 
   return (
     <div className="testimonials" id="testimonials">
-      <h1>Testimonials</h1>
+      <h1>References</h1>
       <div className="container">
         {data.map(d =>
 
@@ -58,7 +61,8 @@ export default function Testimonials() {
             <div className="top">
               <img src="assets/right-arrow.png" className="left" alt="" />
               <img src={d.img} className="user" alt="" />
-              <img src={d.icon} className="right" alt="" />
+              <a href={d.linkedIn} target="_blank"rel="noreferrer" ><LinkedIn className="right"/></a>
+          
             </div>
 
             <div className="center">
