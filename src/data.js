@@ -1,5 +1,4 @@
 import morning_cup_of_javascript from "./Portfolio_photos/Morning_Cup_Of_JavaScript.png"
-import project3_responsive_img from "./Portfolio_photos/project3_responsive_img.jpg"
 import google_book_search from "./Portfolio_photos/Google_Book_Search.png"
 import daily_doodle from "./Portfolio_photos/Daily_Doodles.png"
 import synthpad_demo from "./demo/synthPad_demo.gif"

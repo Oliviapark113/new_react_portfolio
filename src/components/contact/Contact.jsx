@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import "./contact.scss"
 import {LinkedIn, GitHub} from '@material-ui/icons';
+import olivia_bio from '../../Portfolio_photos/olivia_bio.png'
 
 export default function Contact() {
 
@@ -16,7 +17,7 @@ export default function Contact() {
       <div className="left">
      
         <div className="imgContainer">
-          <img src="assets/olivia_bio.png" alt="olivia_photo" />
+          <img src={olivia_bio} alt="olivia_photo" />
         </div>
 
         <div className="textContainer">

@@ -1,6 +1,8 @@
 import {useEffect, useRef } from 'react'
 import './intro.scss'
 import {init} from 'ityped'
+import olivia_intro from '../../Portfolio_photos/olivia_intro_2.png'
+import down_arrow from '../../Portfolio_photos/down.png'
 
 
 export default function Intro() {
@@ -21,7 +23,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/olivia_intro_2.png" alt="olivia_photo"/>
+          <img src={olivia_intro} alt="olivia_photo"/>
         </div>
       </div>
       <div className="right">
@@ -32,7 +34,7 @@ export default function Intro() {
             <span ref={textRef}></span></h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt=""/>
+          <img src={down_arrow } alt=""/>
         </a>
       </div>
     

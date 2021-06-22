@@ -1,6 +1,10 @@
 import React from 'react'
 import './testimonials.scss'
 import {LinkedIn} from '@material-ui/icons';
+import david_t from '../../Portfolio_photos/david_t.png'
+import josh_n from '../../Portfolio_photos/josh_n.png'
+import marty_j from '../../Portfolio_photos/marty_j.png'
+import right_arrow from '../../Portfolio_photos/right-arrow.png'
 
 export default function Testimonials() {
 
@@ -9,8 +13,7 @@ export default function Testimonials() {
       id: 1,
       name: "David Tolliver",
       title: "Executive Managing Director, Castlewood Advisors",
-      img:
-        "assets/david_t.png",
+      img:david_t,
         linkedIn:"https://www.linkedin.com/in/david-tolliver-9a0a0821/",
      
       // icon: "assets/twitter.png",
@@ -20,8 +23,7 @@ export default function Testimonials() {
       id: 2,
       name: "Josh Naylor",
       title: "Lead Instructor of Northwestern Univerity Boot Camp",
-      img:
-        "assets/josh_n.png",
+      img:josh_n,
       linkedIn:"https://www.linkedin.com/in/zylocodes/",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
@@ -31,8 +33,7 @@ export default function Testimonials() {
       id: 3,
       name: "Marty Judge",
       title: "CEO of Judge Outdoor",
-      img:
-        "assets/marty_j.png",
+      img:marty_j,
       linkedIn:"https://www.linkedin.com/in/martyjudge22/",
       desc:
         "I have known Olivia for almost 5 years. I followed her progress through coding boot camp. We were very excited to have her work with our marketing team to create to help us to create a new brand and image for our online presence.",
@@ -58,7 +59,7 @@ export default function Testimonials() {
             ( <div className={d.featured ? "card featured" : "card"}>
 
             <div className="top">
-              <img src="assets/right-arrow.png" className="left" alt="" />
+              <img src={right_arrow } className="left" alt="" />
               <img src={d.img} className="user" alt="" />
               <a href={d.linkedIn} target="_blank"rel="noreferrer" ><LinkedIn className="right"/></a>
           
