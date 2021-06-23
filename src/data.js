@@ -253,7 +253,7 @@ export const responsivePortfolio =[
 
     {
         id:1,
-        title: "All app made with Responsive",
+        title: "Responsive views",
         img:responsive,
         viewSite: "https://github.com/Oliviapark113/",
         viewCode: "https://github.com/Oliviapark113/",

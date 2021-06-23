@@ -8,7 +8,6 @@
     align-items: center;
 
     h1{
-        // margin-top: 10px;
         font-size: 50px;
         color: white;
         overflow: hidden;
@@ -29,7 +28,7 @@
         }
 
         li{
-            font-size: 16px;
+            font-size: 14px;
             margin-right: 50px;
             padding: 7px;
             border-radius: 10px;
@@ -50,7 +49,7 @@
     }
 
     .container{
-        width: 80%;
+        width: 70%;
         display: flex;
         align-items: center;
         justify-self: center;
@@ -63,8 +62,8 @@
          }
 
         .item {
-            width: 300px;
-            height:220px;
+            width: 220px;
+            height:150px;
             border-radius:20px;
             border:1px solid rgb(235, 233, 233);
             margin: 20px 20px;
@@ -90,7 +89,7 @@
 
                     position: absolute;
                     top: 30px;
-                    font-size: 28px;
+                    font-size: 18px;
                     font-weight:400;
                     color: white;          
     
@@ -98,8 +97,8 @@
     
                 .site{
                     position: absolute;
-                    top: 90px;
-                    font-size: 18px;
+                    top: 70px;
+                    font-size: 14px;
                     font-weight:400;
                     text-decoration: none;
                     color: white;
@@ -109,8 +108,8 @@
     
                 .code{
                     position: absolute;
-                    top: 110px;
-                    font-size: 18px;
+                    top: 90px;
+                    font-size: 14px;
                     font-weight:400;
                     text-decoration: none;
                     color: white;
