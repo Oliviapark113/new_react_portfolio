@@ -26,7 +26,7 @@ export default function Testimonials() {
       img:josh_n,
       linkedIn:"https://www.linkedin.com/in/zylocodes/",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "Olivia was a standout student in a class of 30+ students. She clearly has great passion for this new career path. I am very confident that she will be very sucessful and value added to any team that she joins",
       featured: true,
     },
     {
