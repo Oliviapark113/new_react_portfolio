@@ -12,7 +12,7 @@ export default function Testimonials() {
     {
       id: 1,
       name: "David Tolliver",
-      title: "Executive Managing Director, Castlewood Advisors",
+      title: "Executive Managing Director,Castlewood Advisors",
       img:david_t,
         linkedIn:"https://www.linkedin.com/in/david-tolliver-9a0a0821/",
      
