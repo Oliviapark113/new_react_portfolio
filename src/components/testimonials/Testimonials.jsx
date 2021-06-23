@@ -17,7 +17,7 @@ export default function Testimonials() {
         linkedIn:"https://www.linkedin.com/in/david-tolliver-9a0a0821/",
      
       // icon: "assets/twitter.png",
-      desc: "I run a boutique mergers & acquisitions advisory firm in New York.  I recently retained Olivia’s services to clean up our firm’s website and to create website for me personally. I could not have been happier with her speed, creativity and subject matter expertise.  We will use her again for other project work."
+      desc: "I run a boutique mergers & acquisitions advisory firm in New York.  I recently retained Olivia’s services to clean up our firm’s website and to create a website for me personally. I could not have been happier with her speed, creativity and subject matter expertise.  We will use her again for other project work."
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ export default function Testimonials() {
       img:marty_j,
       linkedIn:"https://www.linkedin.com/in/martyjudge22/",
       desc:
-        "I have known Olivia for almost 5 years. I followed her progress through coding boot camp. We were very excited to have her work with our marketing team to create to help us to create a new brand and image for our online presence.",
+        "I have known Olivia for almost 5 years. I followed her progress through coding boot camp. We were very excited to have her work with our marketing team to help us to create our new brand and enhance our online presence.",
     },
      
 

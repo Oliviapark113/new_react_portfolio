@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import "./contact.scss"
-import {LinkedIn, GitHub} from '@material-ui/icons';
+import {LinkedIn, GitHub,Mail,PhoneInTalk } from '@material-ui/icons';
 import olivia_bio from '../../Portfolio_photos/olivia_bio.png'
 
 export default function Contact() {
@@ -22,13 +22,11 @@ export default function Contact() {
 
         <div className="textContainer">
           <p className="biotext">
-            My name is Olivia Park.<br />
-            I am a passionate coder and love challenge myself creatively.<br />
-            With a 20+ years experience as fashion design in NYC,<br/>
-            I have skilled at creative web design using current best practices in web development.
-            <br />
-              I am an innovative and collaborative full-stack web developer
-              with problem solving skill and seeking for new opportunities in software engineer career.
+            I am a passionate coder and love to challenge myself creatively.
+            As an experience fashion designer, I have bring element of style into technology.
+            I am skilled at creative web design using current best practices in web development.
+            I am an innovative and collaborative full-stack web developer
+            with problem solving skill and seeking for new opportunities in software engineer career.
           </p>
 
            
@@ -45,15 +43,6 @@ export default function Contact() {
             <li>REACT, MERN</li>
             <li>Adobe Illustrator & Photoshop</li>
           </ul>
-          {/* <ul className="skill-icons">
-            <ul className="skill-icons">
-             
-              <li><i class="fab fa-css3-alt"></i> </li>
-              <li><i class="fab fa-js"></i></li>
-              <li><i class="fab fa-node"></i></li>
-              <li><i class="fab fa-react"></i></li>
-            </ul>
-    </ul> */}
         </div> 
        
 
@@ -68,6 +57,14 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/olivia-park-74858651/" className="linedIn" target="_blank"rel="noreferrer" >Linked In <LinkedIn className="icon"/></a>
 
         <a href="https://github.com/Oliviapark113/" target="_blank"rel="noreferrer" className="github">GitHub <GitHub className="icon"/></a>
+
+             <a href="mailto:oliviaypark113@gmail.com" title="oliviaypark113@gmail.com" className="email">
+        <Mail className="icon"/>oliviaypark113@gmail.com</a>
+     
+       < p className="phone">  <PhoneInTalk className="icon"/> 347 852 1517</p>
+     
+     
+           
       
         </div>
       </div>
