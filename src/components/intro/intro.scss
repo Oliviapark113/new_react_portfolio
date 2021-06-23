@@ -16,12 +16,11 @@
 
        .imgContainer{
 
-           width: 800px;
-           height: 800px;
+           width: 700px;
+           height: 700px;
            background-color:#bcaaa4;
            box-shadow: inset 1em 1em 1rem #a1887f;
-        //    box-shadow: 10px 5px 5px #f71945;
-
+     
            border-radius: 50%;
            display: flex;
            align-items: flex-end;
@@ -30,8 +29,7 @@
 
            @include mobile{
             align-items: flex-start;
-            width: 700px;
-            height: 700px;
+         
            }
 
            img{
@@ -39,7 +37,7 @@
            
 
             @include mobile{
-             height: 90%;
+             height: 80%;
             }
          }
           

@@ -78,7 +78,7 @@
             @include mobile {
                 width: 130px;
                 height: 100px;
-               
+               overflow: hidden;
                 
              }
             
@@ -91,7 +91,16 @@
                     top: 30px;
                     font-size: 18px;
                     font-weight:400;
-                    color: white;          
+                    color: white;   
+                    
+                    @include mobile {
+
+                        top: 10px;
+                        font-size: 12px;
+                        text-align: center;
+                    
+                        
+                     }
     
                 }
     
@@ -103,6 +112,15 @@
                     text-decoration: none;
                     color: white;
                     text-align: center;
+
+                    @include mobile {
+
+                        top: 40px;
+                        font-size: 10px;
+                        text-align: center;
+                    
+                        
+                     }
     
                 }
     
@@ -114,6 +132,15 @@
                     text-decoration: none;
                     color: white;
                     text-align: center;
+
+                    @include mobile {
+
+                        top: 50px;
+                        font-size: 10px;
+                        text-align: center;
+                
+                        
+                     }
     
                 }
 
