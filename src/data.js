@@ -1,3 +1,5 @@
+import blog_img from "./Portfolio_photos/homePage2.png"
+import blog_demo from "./demo/blog.gif"
 import morning_cup_of_javascript from "./Portfolio_photos/Morning_Cup_Of_JavaScript.png"
 import google_book_search from "./Portfolio_photos/Google_Book_Search.png"
 import daily_doodle from "./Portfolio_photos/Daily_Doodles.png"
@@ -19,6 +21,15 @@ export const featuredPortfolio =[
 
     {
         id:1,
+        title: "Blog MERN App",
+        img:blog_img,
+        viewSite: "https://agile-everglades-85810.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/blog_mern_app"
+
+    },
+
+    {
+        id:2,
         title: "Mornig Cup of JavaScript",
         img:morning_cup_of_javascript,
         viewSite: "https://secure-wave-92624.herokuapp.com/",
@@ -27,7 +38,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:2,
+        id:3,
         title: "Google Book Search",
         img:google_book_search,
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
@@ -36,7 +47,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:3,
+        id:4,
         title: "Dailey Doodles",
         img:daily_doodle,
         viewSite: "https://desolate-harbor-56312.herokuapp.com/",
@@ -45,7 +56,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:4,
+        id:5,
         title: "React Synthpad",
         img:synthpad_demo,
         viewSite: "https://oliviapark113.github.io/react_synthPad_2021/",
@@ -54,7 +65,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:5,
+        id:6,
         title: "Code Closet",
         img:code_closet,
         viewSite: "https://stormy-stream-41757.herokuapp.com/",
@@ -63,7 +74,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:6,
+        id:7,
         title: "Eat Da Burger",
         img:eatda_burger,
         viewSite: "https://evening-castle-79713.herokuapp.com/",
@@ -72,7 +83,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:7,
+        id:8,
         title: "Note Taker",
         img:note_taker ,
         viewSite: "https://sheltered-falls-35987.herokuapp.com/",
@@ -81,7 +92,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:8,
+        id:9,
         title: "PWA Budge Tracker",
         img:pwa_budget_trackers,
         viewSite: " https://whispering-plateau-19333.herokuapp.com/",
@@ -90,7 +101,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:9,
+        id:10,
         title: "Workout Tracker",
         img:workout_tracker,
         viewSite: "https://fierce-badlands-46569.herokuapp.com/",
@@ -99,7 +110,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:10,
+        id:11,
         title: "Weather Dash Board",
         img:weather_dashboard,
         viewSite: "https://oliviapark113.github.io/weather_dashboard_06/",
@@ -108,7 +119,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:11,
+        id:12,
         title: "Real Time Day Planner",
         img:realtime_dayPlanner,
         viewSite: "https://oliviapark113.github.io/realtime_dayPlanner_5/",
@@ -117,7 +128,7 @@ export const featuredPortfolio =[
     },
 
     {
-        id:12,
+        id:13,
         title: "Timed Quiz",
         img:timed_quiz_demo,
         viewSite: "https://oliviapark113.github.io/timed_quiz_box_4/",
@@ -132,6 +143,15 @@ export const reactPortfolio = [
 
     {
         id:1,
+        title: "Blog MERN App",
+        img:blog_demo,
+        viewSite: "https://agile-everglades-85810.herokuapp.com/",
+        viewCode: "https://github.com/Oliviapark113/blog_mern_app"
+
+    },
+
+    {
+        id:2,
         title: "Mornig Cup of JavaScript",
         img:morning_cup_of_javascript,
         viewSite: "https://secure-wave-92624.herokuapp.com/",
@@ -140,7 +160,7 @@ export const reactPortfolio = [
     },
 
     {
-        id:2,
+        id:3,
         title: "Google Book Search",
         img:google_book_search,
         viewSite: "https://polar-lowlands-42713.herokuapp.com/",
@@ -149,7 +169,7 @@ export const reactPortfolio = [
     },
 
     {
-        id:3,
+        id:4,
         title: "Dailey Doodles",
         img:daily_doodle,
         viewSite: "https://desolate-harbor-56312.herokuapp.com/",
@@ -158,7 +178,7 @@ export const reactPortfolio = [
     },
 
     {
-        id:4,
+        id:5,
         title: "React Synthpad",
         img:synthpad_demo,
         viewSite: "https://oliviapark113.github.io/react_synthPad_2021/",

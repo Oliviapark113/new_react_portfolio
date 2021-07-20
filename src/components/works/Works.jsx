@@ -3,6 +3,7 @@ import './works.scss'
 import project3_demo from "../../demo/project3_demo.gif"
 import booksearch_demo from "../../demo/booksearch_demo.gif"
 import doodle_demo from "../../demo/doodlestarter.gif"
+import blog_demo from "../../demo/blog.gif"
 import arrow from "../../Portfolio_photos/arrow.png"
 
 export default function Works(){
@@ -17,8 +18,19 @@ export default function Works(){
 
   const data=[
 
+
     {
-      id: 1,
+      id:1,
+      title: "Blog Mern App",
+      img:blog_demo,
+      description:"Blog app where an authentificated user upload images, write, update postings.",
+      viewSite: "https://agile-everglades-85810.herokuapp.com/",
+      viewCode: "https://github.com/Oliviapark113/blog_mern_app"
+
+  },
+
+    {
+      id: 2,
       title: "Mornig Cup of JavaScript",
       img: project3_demo,
       description:"Built a web app to cater users to latest tech news, coding challenges and a project inspiration generator.",
@@ -28,7 +40,7 @@ export default function Works(){
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Google Book Search",
       img: booksearch_demo,
       description:"Shopping app to allow users to simulate e-commerce shopping experience where users can select, edit and delete in their choices.",
@@ -38,7 +50,7 @@ export default function Works(){
     },
 
     {
-      id: 3,
+      id: 4,
       title: "Dailey Doodles",
       img: doodle_demo,
       description:"Drawing App to simulate drawing pads where users can draw with brush tools , pick the color and save, delete and edit drawings and memo.",
